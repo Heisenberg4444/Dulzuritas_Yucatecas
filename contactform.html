@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Pastel Beauty | Contact Form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+*{margin:0; padding:0}
+body{background:url(images/pop-up-bg.png); overflow:hidden; font-family:Georgia,"Times New Roman",Times,serif}
+#form_container, #form_container_comment{width:100%}
+#form_container_comment{float:left}
+form{margin-top:20px}
+#commentform p{padding:5px 0}
+.input_bg{background:#fff9e3; border:1px solid #fff; color:#000}
+.input_bg:hover{background:#fefcf4}
+.input_bg:focus{background:#FFF}
+textarea{width:100%}
+fieldset{padding:10px 20px; border:0}
+legend{margin-left:2px; padding:2px 0px; font-weight:bold}
+#submit{background:#b3cec7; color:#000; font-weight:700; border:1px solid #fff; padding:5px; cursor:pointer; text-shadow:0 1px 0 #e1eeeb}
+</style>
+</head>
+<body>
+<div id="form_container">
+  <form action="#" method="post" id="commentform">
+    <fieldset>
+      <legend>Send a Message</legend>
+      <p>
+        <input type="text" name="author" class="input_bg" value="" size="22" tabindex="1" />
+        <label for="author"><small>Name (required)</small></label>
+      </p>
+      <p>
+        <input type="text" name="email" class="input_bg" value="" size="22" tabindex="2" />
+        <label for="email"><small>Mail (required)</small></label>
+      </p>
+      <p>
+        <input type="text" name="url" class="input_bg" value="" size="22" tabindex="3" />
+        <label for="url"><small>Website</small></label>
+      </p>
+      <p>
+        <textarea name="comment" class="input_bg" cols="" rows="10" tabindex="4"></textarea>
+      </p>
+      <p>
+        <input name="submit" type="submit" id="submit" tabindex="5" value="Send it" />
+      </p>
+    </fieldset>
+  </form>
+</div>
+<!-- close form_container -->
+</body>
+</html>

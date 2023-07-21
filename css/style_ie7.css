@@ -1,0 +1,7 @@
+#page_wrapper {	
+	position: static;
+}
+
+#dropmenu a {
+	cursor: pointer
+}

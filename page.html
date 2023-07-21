@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+<title>Pastel Beauty | Page</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/tabs.js"></script>
+<link rel="stylesheet" type="text/css" href="js/fancybox/fancy.css" media="screen" />
+<script type="text/javascript" src="js/fancybox/jquery.pngFix.pack.js"></script>
+<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.0.0.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+    $("#Single").fancybox({
+        'fancyLoading': true,
+        'overlayShow': false,
+        'zoomSpeedIn': 600,
+        'zoomSpeedOut': 600,
+        'easingIn': 'easeOutBack',
+        'easingOut': 'easeOutBack',
+        'hideOnContentClick': true
+    });
+    $("#Group2 a").fancybox({
+        'overlayShow': false,
+        'zoomSpeedIn': 300,
+        'zoomSpeedOut': 300
+    });
+});
+</script>
+<script type='text/javascript'>
+jQuery(document).ready(function () {
+    jQuery("#dropmenu ul").css({
+        display: "none"
+    }); // Opera Fix
+    jQuery("#dropmenu li").hover(function () {
+        jQuery(this).find('ul:first').css({
+            visibility: "visible",
+            display: "none"
+        }).show(268);
+    }, function () {
+        jQuery(this).find('ul:first').css({
+            visibility: "hidden"
+        });
+    });
+});
+</script>
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" media="all" href="style_ie7.css" />
+<![endif]-->
+</head>
+<!--*********************************** CLOSE head ***********************************-->
+<body>
+  <h1 id="site-title">Dulzuritas yucatecas</h1>
+<div id="header">
+  <div id="header_contents">
+<div id="header">
+  <div id="header_contents">
+    <div id="header_info_box">
+      <ul id="Group2">
+        <li><a href="contactform.html"><img src="images/email.png" alt="" /></a></li>
+      </ul>
+    </div>
+    <!-- close header_info_box div -->
+    <a href="index.html"><img src="images/logo.png" width="80" height="80" alt="" id="logo" /></a>
+    <h1 style="display:none">Blank II</h1>
+    <h2 style="display:none">Based on the great P2 Theme</h2>
+    <!-- START top_nav_menu div -->
+    <div id="top_nav_menu">
+      <ul id="dropmenu">
+        <li><a href="index.html">INICIO</a></li>
+        <li><a href="page.html">CONOCENOS</a></li>
+       
+          <ul>
+            <li><a href="#">Level 1</a></li>
+            <li><a href="#">Level 1</a></li>
+            <li><a href="#">Level 1</a>
+              <ul>
+                <li><a href="#">Level 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="elements.html"></a></li>
+        <li><a href="gallery.html">NUESTROS PRODUCTOS</a></li>
+      </ul>
+    </div>
+    <!-- CLOSE top_nav_menu div -->
+  </div>
+  <!-- close header_contents div -->
+</div>
+<!--*********************************** CLOSE header div ***********************************-->
+<div id="page_wrapper">
+  <div id="container">
+    <div id="main_content_left">
+      <!-- START post_header div -->
+      <div class="post_header">
+        <h1><a href="#">Endulza tu vida</a></h1>
+        <small class="date">Dulzuritas yucatecas</small> </div>
+      <!-- CLOSE post_header div -->
+      <!-- START post_body div -->
+      <div class="post_body">
+        <p>¡Bienvenidos a una deliciosa experiencia turística en Yucatán! Sumérgete en los sabores y tradiciones de esta hermosa región de México mientras te embarcas en una emocionante cata de dulces yucatecos.
+          Durante la cata de dulces yucatecos, tendrás la oportunidad de probar una variada selección de delicias artesanales cuidadosamente elaboradas por hábiles manos locales. Desde los famosos "muñecos" de mazapán, hasta los irresistibles cocoyoles rellenos de dulce de pepita, cada bocado te transportará a la esencia misma de la cultura yucateca.
+          Pero esta experiencia no se limita a la degustación. También tendrás la oportunidad de adentrarte en el fascinante proceso de elaboración de estos dulces. Aprenderás sobre los ingredientes naturales utilizados, como la pepita, la miel de abeja y coco que aportan a los dulces sus distintivos sabores.</p>
+      </div>
+      <!-- CLOSE post_body div -->
+      <!-- START post_footer div -->
+      <div class="post_footer"> </div>
+      <!-- CLOSE post_footer div -->
+    </div>
+    <!--******************************** close main_content_left div ********************************-->
+    <div id="main_content_right">
+      <!-- START tabbed div -->
+      <div class="tabbed">
+        <ul class="idTabs">
+          <li><a class="selected" href="#RECENT"></a></li>
+          <li><a href="#ARCHIVE"></a></li>
+          <li><a href="#TOPICS"></a></li>
+          <li><a href="#TAGS"></a></li>
+        </ul>
+        <!-- START widget_box div -->
+        <div class="widget_box">
+          <div style="display: block;" id="RECENT">
+            <ul>
+              <li><a href="images/dulce-pepita-yucatan.jpg">Mazapan</a></li>
+              <li><a href="images/PASTA.png">Pasta de guayaba</a></li>
+              <li><a href="images/calabaza.jpg">Dulce de calabaza</a></li>
+          </div>
+          <div style="display: none;" id="ARCHIVE">
+            <ul>
+              <li><a href="#">February 2010</a></li>
+              <li><a href="#">October 2009</a></li>
+            </ul>
+          </div>
+          <!--list of categories, order by name, without children categories, no number of articles per category-->
+          <div style="display: none;" id="TOPICS">
+            <ul>
+              <li class="cat-item cat-item-3"><a href="#"></a></li>
+              <li class="cat-item cat-item-17"><a href="#"></a></li>
+            </ul>
+          </div>
+          <!-- tags -->
+          <div style="display: none; padding: 15px;" id="TAGS"> <a href="#" style="font-size: 8pt;"></a> <a href="#" style="font-size: 8pt;">lorem</a> <a href="#" style="font-size: 8pt;">phasellus</a> <a href="#" style="font-size: 8pt;">placerat</a> <a href="#" style="font-size: 8pt;">sed</a> <a href="#" style="font-size: 8pt;">tempus</a> <a href="#" style="font-size: 8pt;">vestibulum</a></div>
+        </div>
+        <!-- end tags -->
+        <!-- CLOSE widget_box div -->
+      </div>
+      <!-- close tabbed div -->
+      <div class="sidebar_bottom"></div>
+      <!-- end tabbed menu -->
+      <div class="sidebar_header"></div>
+      <div class="sidebar_body">
+        <ul>
+          <li class="sidebar_nav">
+            <h3>Recent Posts</h3>
+            <ul>
+              <li><a href="single.html"></a></li>
+              <li><a href="single.html"> </a></li>
+              <li><a href="single.html"> </a></li>
+            </ul>
+          </li>
+          <li class="sidebar_nav">
+            <h3>Archives</h3>
+            <ul>
+              <li><a href="#">February 2010</a></li>
+              <li><a href="#">October 2009</a></li>
+            </ul>
+          </li>
+          <li class="sidebar_nav">
+            <form method="get" id="search_form" action="#">
+              <input type="text" class="search_input" value="To search, type and hit enter" name="s" id="s" onfocus="if (this.value == 'To search, type and hit enter') {this.value = '';}" onblur="if (this.value == '') {this.value = 'To search, type and hit enter';}" />
+              <input type="hidden" id="searchsubmit" value="Search" />
+            </form>
+          </li>
+        </ul>
+      </div>
+      <!-- end sidebar_body-->
+      <div class="sidebar_bottom"></div>
+    </div>
+    <!--****************************** close main_content_right div *******************************-->
+  </div>
+  <!-- CLOSE CONTAINER div -->
+</div>
+<!-- CLOSE PAGE_WRAPPER div -->
+<div id="footer">
+  <address>
+  Pastel Productions inc, 5015 Bergen &bull; &#9742; 99 88 66 55 &bull; email: <a href="#">mail@domain.com</a>
+  </address>
+  <span style="font-size:.8em">Theme by: <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a></span> </div>
+<!-- close footer -->
+</body>
+</html>
