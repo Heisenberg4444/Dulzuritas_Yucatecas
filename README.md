@@ -1,2 +1,0 @@
-# BetterWare-Reclutamiento
-Unete
